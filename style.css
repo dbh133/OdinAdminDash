@@ -16,7 +16,7 @@
 	display: grid;
 	grid-template-rows: 1fr 1fr;
 	grid-row: 1 / span 2;
-	background-color: rgba(7, 44, 3, 0.815);
+	background-color: #154734d6;
 }
 
 .main-nav {
@@ -76,8 +76,12 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: repeat(auto-fit, clamp(150px, 80%, 1fr));
-	background-color: rgba(128, 128, 128, 0.144);
+	background-color: #772f4d42;
 	gap: 10px 10px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	border-top: gray 10px;
 }
 
 .announce-head {
