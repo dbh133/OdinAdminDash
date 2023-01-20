@@ -20,13 +20,18 @@
 }
 
 .main-nav {
-	display: grid;
-	align-items: center;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	height: 90%;
+	width: min-content;
 }
 
 .support {
-	display: grid;
-	align-items: center;
+	display: flex;
+	flex-flow: column;
+	height: 30%;
+	justify-content: space-around;
 }
 
 .logo {
@@ -136,4 +141,13 @@
 
 .privacy-policy {
 	grid-row: 3;
+}
+
+.nav-bar {
+	display: grid;
+	grid-template-columns: 0.2fr 1fr;
+}
+
+.nav-bar > .icon {
+	justify-self: right;
 }
