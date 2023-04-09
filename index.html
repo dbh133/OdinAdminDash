@@ -6,13 +6,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Millie James Admin Dashboard</title>
 		<link rel="stylesheet" href="style.css" />
-		<script src="index.js"></script>
+		<script src="index.js" defer></script>
 		<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
 	</head>
 	<body>
 		<div class="main-container">
 			<div class="header">
-				<div class="searchbar">Search Bar</div>
+				<div class="searchbar">
+					<form>
+						<label for="search"
+							><form>
+								<label for="search">
+									<iconify-icon
+										class="icon"
+										icon="ic:baseline-search"
+										style="color: rgb(0, 0, 0)"
+										width="30"
+									></iconify-icon>
+						</label>
+						<input type="text" id="search" name="search" placeholder="Search" />
+						<button type="submit">Submit</button>
+					</form>
+				</div>
 				<div class="greeting">Hello</div>
 				<div class="user">Dylan</div>
 				<div class="btns">
@@ -24,7 +39,9 @@
 			<div class="sidebar">
 				<div class="main-nav">
 					<div class="logo-items">
-						<div class="logo"><img src="tire.png" /></div>
+						<div class="logo">
+							<canvas id="myCanvas" width="50" height="50"></canvas>
+						</div>
 						<div class="side-content"><h1>Dashboard</h1></div>
 					</div>
 					<a class="nav-bar" href="#"
