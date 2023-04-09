@@ -156,3 +156,20 @@
 .nav-bar > .icon {
 	justify-self: right;
 }
+
+.searchbar {
+	display: flex;
+	align-items: center;
+}
+
+#searchForm {
+	flex-grow: 1;
+}
+
+#search {
+	justify-content: space-around;
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.25);
+	border-style: none;
+	width: 90%;
+}
